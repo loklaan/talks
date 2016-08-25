@@ -1,0 +1,22 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "all my talks, forever always",
+  "devDependencies": {
+    "tslide": "loklaan/tslide#delete-me-soon"
+  },
+  "scripts": {
+    "2016-fpp": "tslide 2016-functional-programming-preach/slides.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loklaan/talks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/loklaan/talks/issues"
+  },
+  "homepage": "https://github.com/loklaan/talks#readme"
+}

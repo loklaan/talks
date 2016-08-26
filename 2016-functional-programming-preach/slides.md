@@ -51,6 +51,8 @@ functional programming is all about
 1. avoiding side causes & effects
 2. function composition
 
+that is it
+
 ![oh_no_way](ohwow.gif)
 
 ---
@@ -140,26 +142,34 @@ pure functions are 100% recyclable & reusable :blush:
 
 what does this other term, composition, mean?
 
-// TODO: transition to explain breaking data
-   problems into small reusable functions
+* encapsulate small solutions
+* use these small solutions together
+
+functions were made to do this
 
 ---
 # HIGH ORDER FUNCTION
 
 
-// TODO: explain a high order function, and
-   why it adds to the boon of composition
+a function, that returns another function :hatching_chick:
+
+* second function can carry state
+* so many uses, have to get a feel for it, like closures
 
 ---
 # PLEASE LISTEN NOW
 
 
-// TODO: tie all this good stuff back together,
-   to reach my goals: fun maintainable code
+* functional programming is good
+* so are other programming paradigms
+* get familiar with different kinds
+* situations call for different approaches
+* be awesome :fist:
 
 ---
 # FIN
 
+![finish](bye.gif)
 
 questions PLEASE
 

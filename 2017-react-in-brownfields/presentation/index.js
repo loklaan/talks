@@ -66,7 +66,12 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="primary" bgImage={images.green}>
+        <Slide transition={["fade"]} bgColor="primary" bgImage={images.green}
+         notes={`
+         <li>new products and projects
+         <li>what most people want to work on
+         `}
+        >
           <Appear>
             <List textColor="quartenary" bgColor="secondary" padding="4rem 5rem" style={{borderRadius: 10}}>
               <Heading size={2} textColor="tertiary" margin="0 0 2rem 0">Greenfields</Heading>
@@ -80,7 +85,15 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="primary" bgImage={images.brown}>
+        <Slide transition={["fade"]} bgColor="primary" bgImage={images.brown}
+         notes={`
+         <li>existing products
+         <li>existing clients
+         <li>makes money
+         <li>in javascript, age shows
+         <h1>HANDS UP<br />"who wants to use react in brownfields"<br />this talk is for you
+         `}
+        >
           <Appear>
             <List textColor="quartenary" bgColor="secondary" padding="4rem 5rem" style={{borderRadius: 5}}>
               <Heading size={2} textColor="tertiary" margin="0 0 2rem 0">Brownfields</Heading>
@@ -96,14 +109,43 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
+        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary"
+         notes={`
+         <li>i came across...
+         <strong>stop before 'convincing'</strong>
+         <li>at the time was seeing problems...
+             <ul><li>repeated patterns
+             <li>unexpected bugs from coupled UI state
+             <li>disconnect in product team
+                 <ul><li>designers weren't falling back on patterns consistently
+                 <li>product manager tableflipping estimates</ul></ul>
+         <li>saw components as a way to solve that first problem
+         <li>bosses on board to write new features in rex in react
+         <li>going forward, all products
+         <li>this is where we are now. eg pocket
+         <li>it's solved most of the problems mentioned
+         <li>brought dev inline with ux/design
+         `}
+        >
           <Heading size={2} textColor="primary" caps margin="0 0 1rem 0">Rex</Heading>
           <Heading size={6} textColor="quartenary" caps margin="0 0 2rem 0">meets react</Heading>
         </Slide>
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="tertiary" textColor="secondary">
+        <Slide transition={["fade"]} bgColor="tertiary" textColor="secondary"
+         notes={`
+         <li>before <strong>convincing anyone to react in brownfields</strong>
+         <li>ui stack
+             <ul><li>view libraries and data models</ul>
+         <li>module bundling
+             <ul><li>react and vanillajs
+             <li>third party packages</ul>
+         <li>nice to future self and others
+             <ul><li>explain your choices
+             <li>guides</ul>
+         `}
+        >
           <Heading size={1} textColor="quartenary" fit caps margin="0 0 3rem 0">Placing React with care</Heading>
           <Heading size={3} style={{fontSize: "4.5rem"}} textColor="primary" margin="0 0 1.8rem 0">Integrating your UI stack</Heading>
           <Heading size={3} style={{fontSize: "3.8rem"}} textColor="primary" margin="0 0 1.8rem 0">Building modern javascript</Heading>
@@ -112,7 +154,13 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="quartenary" textColor="secondary">
+        <Slide transition={["fade"]} bgColor="quartenary" textColor="secondary"
+         notes={`
+         <li>dom elements in your view
+         <li>call <code>React.render(Component, element)</code>
+         <li>call <code>React.unmountComponentAtNode(element)</code> to cleanup
+         `}
+        >
           <Heading size={3} style={{fontSize: "4.5rem"}} textColor="secondary" margin="0 0 3rem 0">Integrating your UI stack</Heading>
           <Heading fit bold textColor="primary" margin="0 0 1.8rem 0" caps>Embedding React Components</Heading>
         </Slide>
@@ -156,7 +204,12 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="quartenary" textColor="secondary">
+        <Slide transition={["fade"]} bgColor="quartenary" textColor="secondary"
+         notes={`
+         <li>subscribe to changes in your data model
+         <li>feed them into <code>React.render(Component, element)</code>
+         `}
+        >
           <Heading size={3} style={{fontSize: "4.5rem"}} textColor="secondary" margin="0 0 3rem 0">Integrating your UI stack</Heading>
           <Heading fit bold textColor="primary" margin="0 0 1.8rem 0" caps>Syncing State</Heading>
         </Slide>
@@ -238,7 +291,12 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="tertiary" textColor="secondary">
+        <Slide transition={["fade"]} bgColor="tertiary" textColor="secondary"
+         notes={`
+         <li>developers are bad at commenting
+         <li>not doing this is 1 million time worse
+         `}
+        >
           <Heading size={1} textColor="quartenary" fit caps margin="0 0 4rem 0">Establishing guidelines</Heading>
           <Heading size={3} style={{fontSize: "4rem"}} textColor="primary" margin="0 0 3.5rem 0">Document everything</Heading>
           <Heading size={3} style={{fontSize: "3.6rem"}} textColor="primary">Write guides</Heading>
@@ -246,7 +304,20 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="primary" align="center center">
+        <Slide transition={["fade"]} bgColor="primary" align="center center"
+         notes={`
+         <li>our problems were a reason for react in brownfields
+         <li>react in greenfields often better choice to begin
+         <li>take questions
+         <li>plug REX
+         <li>committed to react
+         <li>teach new devs react & ecosystem
+         <li>interesting real problems being solved with react
+         <li>if you'd like work more with react
+         <li>but you can't with your current situation
+         <li>come talk to one of the people wearing rex tshirts
+         `}
+        >
           <Heading style={{letterSpacing: 8}} size={1} caps textColor="secondary" margin="0 0 1rem 0">
             React in Brownfields
           </Heading>
@@ -257,12 +328,6 @@ export default class Presentation extends React.Component {
             {" "}
             <Link textColor="tertiary" bold href="https://twitter.com/rexsoftware">{"@rexsoftware"}</Link>
           </Text>
-          <br />
-          <Appear>
-            <Text textColor="tertiary" textFont="secondary" size={6} bold>
-              Drunk proposal <S type="bold" textColor="tertiary">#1/3</S>
-            </Text>
-          </Appear>
         </Slide>
       </Deck>
     );

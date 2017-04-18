@@ -2,9 +2,7 @@
   "name": "talks",
   "version": "1.0.0",
   "description": "all my talks, forever always",
-  "devDependencies": {
-    "tslide": "loklaan/tslide#delete-me-soon"
-  },
+  "devDependencies": {},
   "scripts": {
     "2016-fpp": "tslide 2016-functional-programming-preach/slides.md"
   },
@@ -18,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/loklaan/talks/issues"
   },
-  "homepage": "https://github.com/loklaan/talks#readme"
+  "homepage": "https://github.com/loklaan/talks#readme",
+  "dependencies": {
+    "tslide": "^1.5.0"
+  }
 }

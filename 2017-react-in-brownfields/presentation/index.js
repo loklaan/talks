@@ -304,30 +304,29 @@ export default class Presentation extends React.Component {
 
         {/**/}
 
-        <Slide transition={["fade"]} bgColor="primary" align="center center"
-         notes={`
-         <li>our problems were a reason for react in brownfields
-         <li>react in greenfields often better choice to begin
-         <li>take questions
-         <li>plug REX
-         <li>committed to react
-         <li>teach new devs react & ecosystem
-         <li>interesting real problems being solved with react
-         <li>if you'd like work more with react
-         <li>but you can't with your current situation
-         <li>come talk to one of the people wearing rex tshirts
-         `}
-        >
-          <Heading style={{letterSpacing: 8}} size={1} caps textColor="secondary" margin="0 0 1rem 0">
-            React in Brownfields
+        <Slide transition={["fade"]} bgColor="primary" align="center center">
+          <Heading style={{letterSpacing: 8}} size={1} caps textColor="secondary" margin="0 0 3rem 0">
+            Resources
           </Heading>
-          <Heading size={2} textColor="quartenary" fit caps>TLDR; expensive, but pays off</Heading>
 
-          <Text margin="10vh 0 0" textColor="tertiary" textFont="secondary" size={6}>
-            <Link textColor="tertiary" bold href="https://twitter.com/loklaan">{"@loklaan"}</Link>
-            {" "}
-            <Link textColor="tertiary" bold href="https://twitter.com/rexsoftware">{"@rexsoftware"}</Link>
-          </Text>
+          <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
+            Basic React installation
+          </Heading>
+          <Link textColor="secondary" href="https://facebook.github.io/react/docs/installation.html">
+            https://facebook.github.io/react/docs/installation.html
+          </Link>
+          <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
+            Integrating React in thirdy party libraries
+          </Heading>
+          <Link textColor="secondary" href="https://github.com/facebook/react/pull/9316">
+            https://github.com/facebook/react/pull/9316
+          </Link>
+          <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
+            Airbnb, React Native in Brownfields
+          </Heading>
+          <Link textColor="secondary" href="https://www.youtube.com/watch?v=tWitQoPgs8w">
+            https://www.youtube.com/watch?v=tWitQoPgs8w
+          </Link>
         </Slide>
       </Deck>
     );

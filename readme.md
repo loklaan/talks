@@ -1,8 +1,21 @@
 # talks, by lochlan bunn
 
-all my talks, forever always
+All my talks, forever always.
 
-## TODO:
+## slide decks
 
-* [ ] choose a slidedeck
-* [ ] write down git-fundamentals-concepts talk
+Simple:
+[tslide/tslide][tslide]
+
+Complex:
+[FormidableLabs/spectacle][spectacle] + [thejameskyle/spectacle-code-slide][code-slide]
+
+[tslide]: https://github.com/tslide/tslide
+[spectacle]: https://github.com/FormidableLabs/spectacle
+[code-slide]: https://github.com/thejameskyle/spectacle-code-slide
+
+## pending past talks
+
+_Past talks that weren't developed in this repo._
+
+* [ ] deep git fundamentals

@@ -173,7 +173,7 @@ export default class Presentation extends React.Component {
           lang="html"
           code={require('raw-loader!./view.example.html')}
           ranges={[
-            { loc: [ 0, 0 ], title: <Heading textColor="tertiary" size={2}>But first, a Knockout Demo 🤷</Heading> },
+            { loc: [ 0, 0 ], title: <Heading textColor="tertiary" size={2}>But first, a Knockout Demo 😱</Heading> },
             { loc: [ 0, 8 ], note: "simple knockout \"view\"" },
             { loc: [ 10, 14 ], note: "simple knockout \"viewmodel\" (observable state)" },
             { loc: [ 15, 20 ], note: "apply viewmodel to dom element tree" },

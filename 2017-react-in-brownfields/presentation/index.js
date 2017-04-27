@@ -318,8 +318,8 @@ export default class Presentation extends React.Component {
           <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
             Integrating React in thirdy party libraries
           </Heading>
-          <Link textColor="secondary" href="https://github.com/facebook/react/pull/9316">
-            https://github.com/facebook/react/pull/9316
+          <Link textColor="secondary" href="https://facebook.github.io/react/docs/integrating-with-other-libraries.html">
+            https://facebook.github.io/react/docs/integrating-with-other-libraries
           </Link>
           <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
             Airbnb, React Native in Brownfields

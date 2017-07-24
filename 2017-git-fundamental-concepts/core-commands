@@ -1,0 +1,8 @@
+
+git hash-object      # stores content in git database
+git cat-file         # given a key in the git database, cats out the content
+git update-index     # stages git databases keys paired with file/directory names
+git write-tree       # stores a 'tree' object to the git database, based on the staged key/name pairs
+git read-tree        # reads a 'tree' object from the git database into the stage
+git commit-tree      # stores a 'commit' object to the git database, based on a tree object / commit details pair
+

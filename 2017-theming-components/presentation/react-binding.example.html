@@ -1,0 +1,61 @@
+<div data-bind="react: {
+  class: Todo,
+  props: todoProps
+}">
+</div>
+
+
+<script type="text/javascript">
+
+const viewModel = {
+  Todo: MyTodo,
+  todoProps: ko.observable({
+    todos: [ /* ... */ ]
+  })
+};
+
+
+
+ko.bindingHandlers.react = {
+  init: renderReact,
+  update: renderReact,
+  dispose: unmountReact
+};
+
+
+
+function renderReact (element, accessor) {
+  const Component = accessor().class;
+  const props = ko.toJS(accessor().props);
+
+  ReactDOM.render(
+    <Component {...props} />,
+    element
+  );
+
+  return { controlsDescendantBindings: true };
+}
+
+
+
+function unmountReact (element) {
+  ReactDOM.unmountComponentAtNode(element);
+}
+
+
+
+ko.applyBinding(
+  viewModel,
+  document.getElementById("x")
+);
+
+
+viewModel.todoProps({
+  todos: [] // Empty list of todos
+});
+
+
+</script>
+
+
+

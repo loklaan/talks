@@ -1,23 +1,27 @@
 {
-  "name": "2017-state-of-styling-react",
-  "version": "1.0.0",
-  "description": "State of Styling, in React",
+  "name": "2017-react-in-brownfields",
+  "version": "1.0.1",
+  "description": "React in Brownfield projects",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "serve": "live-server ./",
     "lint": "eslint --ext .js,.jsx .",
-    "deploy": "npm run clean & npm run build && surge -p . -d \"2017-lochlan-state-of-styling.surge.sh\"",
+    "deploy": "npm run clean & npm run build && surge -p . -d \"2017-lochlan-react-in-brownfields.surge.sh\"",
     "start": "cross-env NODE_ENV=development node server.js"
   },
   "author": "Lochlan Bunn <bunn@lochlan.io>",
   "license": "UNLICENSED",
   "dependencies": {
     "@loklaan/spectacle-code-slide": "^0.3.2-5",
+    "@rexlabs/plz-cli": "^1.16.0",
+    "@rexlabs/styling": "^1.2.3",
+    "lodash": "^4.17.4",
     "normalize.css": "3.0.3",
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "recompose": "^0.24.0",
     "spectacle": "^2.0.0",
     "spectacle-code-slide": "^0.3.1"
   },

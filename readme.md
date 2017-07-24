@@ -13,9 +13,3 @@ Complex:
 [tslide]: https://github.com/tslide/tslide
 [spectacle]: https://github.com/FormidableLabs/spectacle
 [code-slide]: https://github.com/thejameskyle/spectacle-code-slide
-
-## pending past talks
-
-_Past talks that weren't developed in this repo._
-
-* [ ] deep git fundamentals

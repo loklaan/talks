@@ -1,4 +1,4 @@
-# 2017 React in Brownfields
+# 2017 Theming Distributable Components
 
 ```shell
 yarn            # install deps

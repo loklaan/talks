@@ -39,6 +39,17 @@ const theme = createTheme({
   tertiary: { name: "Space Mono", googleFont: true, styles: ["400"] }
 });
 
+const ResourceLink = ({name, url}) => (
+  <Fit>
+    <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
+      {name}
+    </Heading>
+    <Link textColor="secondary" href={url}>
+      {url}
+    </Link>
+  </Fit>
+);
+
 export default class Presentation extends React.Component {
   render() {
     return (
@@ -105,6 +116,11 @@ export default class Presentation extends React.Component {
          `}
         >
           <Heading size={1} textColor="primary" fit caps margin="0 0 3rem 0">Live Coding</Heading>
+
+          <ResourceLink
+            name="~Live Example~"
+            url="https://glitch.com/edit/#!/writing-themeable-components"
+          />
         </Slide>
 
         {/**/}
@@ -138,9 +154,10 @@ export default class Presentation extends React.Component {
             Finish!
           </Heading>
 
-          <Heading margin="1.5rem 0 0 0" size={6} textColor="quartenary" caps>
-            Questions?
-          </Heading>
+          <ResourceLink
+            name="Code Examples"
+            url="https://github.com/loklaan/writing-themed-components"
+          />
         </Slide>
       </Deck>
     );

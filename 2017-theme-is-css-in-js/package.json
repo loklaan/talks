@@ -1,0 +1,21 @@
+{
+  "name": "2017-theme-is-css-in-js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "prismjs": "^1.8.1",
+    "raw-loader": "^0.5.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "spectacle": "^2.2.2",
+    "spectacle-code-slide": "^0.4.0",
+    "spectacle-scripts": "1.0.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && surge -p ./build -d \"theme-is-cssinjs.surge.sh\""
+  }
+}

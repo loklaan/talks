@@ -1,0 +1,26 @@
+<div id="x" data-bind="visible: showMessage">
+
+    When "showMessage" holds a true
+    value, you'll see me.
+
+</div>
+
+
+
+<script type="text/javascript">
+  const viewModel = {
+    showMessage: ko.observable(true)
+  };
+
+  // Attach model to view
+  ko.applyBinding(
+    viewModel,
+    document.getElementById("x")
+  );
+
+  // ... now it's hidden
+  viewModel.showMessage(false);
+
+  // ... now it's visible again
+  viewModel.showMessage(true);
+</script>

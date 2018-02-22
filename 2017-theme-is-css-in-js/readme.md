@@ -1,4 +1,6 @@
-# 2017 [The Theme is CSS in JS](https://theme-is-cssinjs.surge.sh)
+# 2017 The Theme is CSS in JS
+
+[Viewable Slides](https://theme-is-cssinjs.surge.sh/)
 
 > BrisJS October 9th
 

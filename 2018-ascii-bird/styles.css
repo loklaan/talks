@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #111;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+pre {
+  font-weight: 700;
+  font-family: 'Operator Mono', monospace;
+  font-size: 1rem;
+  line-height: 0.8rem;
+  user-select: none;
+}
+
+/* POWER MODE! */
+
+@keyframes pulser {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+@keyframes rotator {
+    0% { transform: rotate(-15deg); }
+    100% { transform: rotate(15deg); }
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 0% }
+    100% { background-position: 125% 0% }
+}
+
+body.js-power-mode {
+  margin-top: inherit;
+  align-items: center;
+}
+
+body.js-power-mode #container {
+  animation: rotator 3s ease-in-out alternate infinite;
+}
+
+body.js-power-mode #game {
+  background: linear-gradient(
+    90deg,
+    #FF0000, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #4B0082, #4B0082, #9400D3, #9400D3
+  );
+  animation:
+    pulser 1s ease-in-out infinite,
+    rainbow 900ms linear backwards infinite;
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

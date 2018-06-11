@@ -1,25 +1,50 @@
 
+# Constants for making Code
+
+Code Editors:       writing & explaining code.
+
+Version Control:    storing code.
+                    enabling collaboration & codebase documentation.
+
+
+> You will be using these for the rest of your (coding) life,
+> regardless of what you're programming.
+>
+> Get comfortable.
+
+---
 
 # Git Fundamentals
 
-What is git?
+What is Version Control?
+
+What is Git?
 
 Why is it hard?
 
 How does it work?
 ---
 
+# What?   Version Control?
 
-# What?
+Version Control is a developer's "Save" button.
 
-Code Editors:       writing & explaining code.
+But there are different ways to save your project's:
 
-Version Control:    storing code.
-                    enabling collaboration & codebase documentation.
+1. Your local code!
+   Freeform, like how you structure you folders on your own computer
+
+2. Public record of your code!
+  * When presenting your work on a place like GitHub, you want to lend
+    meaning to the history of your code!
+  * Or, you just need to throw your "local code" up into the web for
+    team members to hack ontop of.
+
+3. With extra metadata... For things like deployments.
+   We live in a (coding) world of continuously deployed API's & Apps.
 ---
 
-
-# What?
+# What?   Git?
 
 Git is three things:
 
@@ -31,8 +56,7 @@ Git is three things:
 3. the most useful pain-in-the-arse tool you'll ever learn
 ---
 
-
-# So hard tho
+# `git help`
 
 INDIRECTION!
 
@@ -40,11 +64,25 @@ INDIRECTION!
 
 > 157 individual commands, with over 1000 command arguments.
 
+Urgh. Distracting.
 
-It distracts from the simplicity of git.
+* We only care about a common commands... Maybe 6?
+* Of those 6 commands, we need to know (maybe) 3-4 arguments?
+---
 
-Coming to understanding the small set of core commands/procedures
-that a team developer is concerned with isn't straight forward!
+# But the concepts are small!
+
+ BRANCHES                      COMMITS
+   The human names for           The snapshots of a
+   "commits" in git!             persons code.
+
+I think of BRANCHES and COMMITS like I think of VARIABLES and ARRAYS*...
+
+
+
+
+_When I say "arrays", I actually mean tries, but they aren't as ubiquitous._
+
 ---
 
 

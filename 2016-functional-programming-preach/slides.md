@@ -87,18 +87,16 @@ a function can have 2 kinds of inputs, and 2 kinds of outputs
 
 example:
 ```javascript
-const cause = 'probs 42'
+let cause = 'probs 42'
 
 function wutlyf () {
-  console.log('meaning of lyf is' + cause)
+  return 'meaning of lyf is' + cause
 }
 
-wutlyf()
-// meaning of lyf is probs 42
+wutlyf() // return:  "meaning of lyf is probs 42"
 
-cause = '... somethings cause my output to change'
-wutlyf()
-// meaning of lyf is ... something caused my output to change
+cause = '... something else'
+wutlyf() // return: "meaning of lyf is ... something else"
 ```
 
 ---
@@ -108,13 +106,12 @@ wutlyf()
 example:
 ```javascript
 function wutlyf (meaning) {
-  console.log('meaning of lyf is' + meaning)
   process(meaning)
+  return 'meaning of lyf is' + meaning
 }
 
-wutlyf('defs 42')
-// meaning of lyf is defs 42
-// vogon construction fleet blew up earth
+wutlyf('defs 42') // return: meaning of lyf is defs 42
+// also, the vogon construction fleet blew up earth :(
 ```
 
 ---

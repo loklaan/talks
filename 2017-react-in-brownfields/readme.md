@@ -1,6 +1,13 @@
-# 2017 React in Brownfields
+# React in Brownfields
 
-[Viewable Slides](2017-lochlan-react-in-brownfields.surge.sh)
+_Using React to build new UI in legacy projects. Is it worth it?_ ...🤔
+
+| Talk Content 🗣️ |
+| ------- |
+| 📖 **[Viewable Slides](https://2017-lochlan-react-in-brownfields.surge.sh/)** |
+
+
+## Developing Slides
 
 ```shell
 yarn            # install deps

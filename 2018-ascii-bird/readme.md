@@ -1,18 +1,18 @@
-# 2018 ASCII BIRD in 5 MINUTES
+# ASCII BIRD in 5 MINUTES
 
-This was a live-coding performance in which I wrote the Flappy Bird game "from scratch", but rendered to ASCII.
+> Lol this actually took 25 minutes to perform.
 
-It was originally intended to be a workshop for non/beginner programmers!
+_This was a live-coding performance in which I wrote the Flappy Bird game "from scratch", but rendered to ASCII._
 
-[🐦 Live Demo 🐦](https://ascii-bird.glitch.me/)
+It was originally intended to be a workshop for non/beginner programmers! You can find the workshops steps below.
 
-![screenshot](screenshot.png)
-
-> _Lol this actually took 25 minutes to perform._
+| Talk Content 🗣️ |
+| ------- |
+| 📺 **[Recorded Video](https://www.youtube.com/watch?v=MxlTdDHlFzo&t=485s)** <br /> 🐦 **[Live Demo](https://ascii-bird.glitch.me/)** <br /> 👨‍💻 **[Code](./game.js)** <br /> _**Screenshot:**_ ![screenshot](screenshot.png) |
 
 ## Exercise Steps
 
-This can be done as an excerise with a friend! 💁
+This can be done as an exercise with a friend! 💁
 
 ### Intro
 

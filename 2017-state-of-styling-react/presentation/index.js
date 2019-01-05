@@ -143,7 +143,7 @@ export default class Presentation extends React.Component {
           <Heading size={3} style={{fontSize: "4.5rem"}} textColor="secondary" margin="0 0 3.9rem 0">Library Suggestions</Heading>
           <Heading size={4} style={{ fontSize: "2.7rem" }} bold textColor="primary" margin="0 0 1.8rem 0" caps>{"<Opinion>"}</Heading>
           <List textColor="primary" bold>
-            <ListItem margin="0 0 1rem 0">For React: <Code>styled-jsx</Code></ListItem>
+            <ListItem margin="0 0 1rem 0">For React: <Code>emotion / styled-jsx</Code></ListItem>
             <ListItem margin="0 0 1rem 0">For Freedom: <Code>glamor / fela</Code></ListItem>
             <ListItem margin="0 0 1rem 0">For You: <S type="underline"><Code>???</Code></S></ListItem>
           </List>

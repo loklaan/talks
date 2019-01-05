@@ -1,6 +1,12 @@
-# 2017 State of Styling React
+# State of Styling React
 
-[Viewable Slides](2017-lochlan-state-of-styling.surge.sh)
+_What's going on with CSS in React Components, and why you might want to give **CSS in JS** a try._
+
+| Talk Content 🗣️ |
+| ------- |
+| 📖 **[Viewable Slides](https://2017-lochlan-state-of-styling.surge.sh/)** |
+
+## Developing Slides
 
 ```shell
 yarn            # install deps
